@@ -1,0 +1,12 @@
+/vendor
+/node_modules
+/public/storage
+
+resources/views/themes/*
+!resources/views/themes/clean-blog/
+resources/assets/themes/*
+!resources/assets/themes/clean-blog/
+.env
+.idea/
+.phpstorm.meta.php
+public/img/posts/
