@@ -35847,6 +35847,9 @@ exports.default = {
             element: document.getElementById("mdeditor"),
             spellChecker: false
         });
+        simplemde.drawImage.on("click", function () {
+            alert('func');
+        });
     },
     data: function data() {
         return {

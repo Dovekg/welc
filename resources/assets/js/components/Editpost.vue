@@ -80,7 +80,11 @@ export default {
         this.simplemde = new SimpleMDE({
             element: document.getElementById("mdeditor"),
             spellChecker: false,
+            // promptURLs: true,
         });
+        simplemde.drawImage.on("click", function() {
+            alert('func');
+        })
     },
     data () {
         return {
